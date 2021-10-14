@@ -95,8 +95,11 @@ console.log('James stomach after using the bathroom', james.stomach)
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
 */
 
-function Car() {
-  
+function Car(model, milesPerGallon) {
+  this.tank = 0;
+  this.odometer = 0;
+  this.model = model
+  this.milesPerGallon = milesPerGallon
 }
 
 
@@ -107,8 +110,10 @@ function Car() {
     - Besides the methods on Person.prototype, babies have the ability to `.play()`:
         + Should return a string "Playing with x", x being the favorite toy.
 */
-function Baby() {
- 
+function Baby(name, age, favoriteToy) {
+ this.name = name;
+ this.age = age;
+ this.favoriteToy = favoriteToy;
 }
 
 
