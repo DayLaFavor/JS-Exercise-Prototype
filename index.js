@@ -120,10 +120,10 @@ function Baby(name, age, favoriteToy) {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding will return the window or undefined if your in strict mode
+  2. Implicit Binding is what the this. points to on the left of the period
+  3. New Binding is when a function is used as a constuctor function
+  4. Explicit Binding is when you define this. using apply or bind
 */
 
 
